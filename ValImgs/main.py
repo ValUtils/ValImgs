@@ -1,5 +1,5 @@
 from importlib_resources import files
-from . import imgs
+import ValImgs.imgs as imgs
 
 
 def get_imgs(path: str):
